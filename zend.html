@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>میرے عشق کی کہانی 💞</title>
+  <style>
+    body {
+      background-color: #000; /* black background */
+      color: #fff;
+      font-family: 'Noto Nastaliq Urdu', 'Arial', sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 40px;
+      background: linear-gradient(90deg, #ff99cc, #cc66ff, #66ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 30px rgba(255,255,255,0.2);
+      margin-bottom: 30px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff7b7b, 0 0 20px #ffcccb; }
+      to { text-shadow: 0 0 25px #cc66ff, 0 0 40px #66ccff; }
+    }
+
+    .poetry {
+      font-size: 26px;
+      line-height: 2;
+      margin: 40px auto;
+      width: 80%;
+      max-width: 800px;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 30px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 20px rgba(255, 150, 150, 0.2);
+      position: relative;
+      z-index: 2;
+    }
+
+    .text-box {
+      margin-top: 40px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      font-size: 24px;
+      font-family: 'Cursive', 'Arial';
+      color: #ffcce0;
+      margin-bottom: 15px;
+      text-shadow: 0 0 10px #ff66b3;
+    }
+
+    input {
+      padding: 12px 20px;
+      border: 2px solid #ff99cc;
+      border-radius: 25px;
+      width: 60%;
+      font-size: 18px;
+      text-align: center;
+      background: rgba(255,255,255,0.1);
+      color: white;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      box-shadow: 0 0 15px #ff66b3;
+      border-color: #ff3399;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      background: linear-gradient(90deg, #ff5f6d, #ffc371);
+      color: black;
+      padding: 15px 35px;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.4s;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px #ffb3b3;
+    }
+
+    .emojis {
+      font-size: 26px;
+      margin-top: 50px;
+      line-height: 1.8;
+    }
+
+    .hearts-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .heart {
+      position: absolute;
+      bottom: -20px;
+      font-size: 22px;
+      animation: float 6s linear infinite;
+      opacity: 0.9;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) scale(0.5);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hearts-bg" id="heartsContainer"></div>
+
+  <h1>میرے عشق دی آخری کہانی 💔</h1>
+
+  <div class="poetry">
+    جے عشق کرنا گناہ اے لوکو ✨♥️🥀<br>
+    میں عشق کیتا، مینوں مار دیو ❤️🖤💙😘🐣<br>
+    میرے تن دے ٹوٹے ٹوٹے کر کے 🫀🤍🫶🏻<br>
+    میرے یار دے اُتے وار دیو 😭<br>
+    جے میرے دل وچ میرا یار وسدا اے 💖🌙<br>
+    تے میری اَکھ وچ اوندا دیدار وسدا اے 💞<br>
+    تے مینوں میرے غماں دی کوئی پرواہ نئیں 🥹🍫💋<br>
+    سدا خوش رہوے، میرا یار وسدا اے 🤍
+  </div>
+
+  <div class="text-box">
+    <label>“?Bataein kesi lagi meri sorry” 💋</label>
+    <input id="msgInput" type="text" placeholder="Apna reply likho meri Jawn 😘">
+    <br>
+    <a id="whatsappLink" class="btn" href="#" target="_blank">Send on WhatsApp 💌</a>
+  </div>
+
+  <div class="emojis">
+    <p>Ummmmmmmmaaaaaaaaaaahhhhhhhhhhhh 💋💕🫂💋</p>
+    <p>🫀🤍🌍🫶🏻♥️🍫🫂🌍🫶🏻🤍<br>
+    🌺🫀🤍🫶🏻💋🫂💕♥️♥️🐣👀🌺❣️🥰🫀🥹🫶🏻💕🤍♥️💋❤️🥹🌍🐣💋♥️♥️♥️♥️♥️🫀🫀🫀🫂🫂🫶🏻🌍💋💕🌺🍫🐣🐣🥹🌺🌍🥹🍫💋♥️💋🌺🐣</p>
+  </div>
+
+  <script>
+    const colors = ["❤️", "💙", "🖤"];
+    const heartsContainer = document.getElementById("heartsContainer");
+
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = 4 + Math.random() * 3 + "s";
+      heart.innerHTML = colors[Math.floor(Math.random() * colors.length)];
+      heartsContainer.appendChild(heart);
+      setTimeout(() => heart.remove(), 7000);
+    }
+
+    setInterval(createHeart, 300);
+
+    document.getElementById("whatsappLink").addEventListener("click", function() {
+      const msg = document.getElementById("msgInput").value || "Mujhe tumhari sorry bohot pyaari lagi 💞";
+      const phone = "923280333653";
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
+      this.href = url;
+    });
+  </script>
+
+</body>
+</html>
